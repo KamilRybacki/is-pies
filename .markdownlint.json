@@ -1,0 +1,7 @@
+{
+  "line-length": {
+    "line_length": 192,
+    "code_block_line_length": 80
+  },
+  "no-inline-html": false
+}

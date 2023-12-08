@@ -1,6 +1,6 @@
 name: Markdown and other text documentation linting
 run-name: Markdown linting
-on: [push, pull_request]
+on: [push]
 
 jobs:
   markdown-lint:
