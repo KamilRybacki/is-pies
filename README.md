@@ -41,17 +41,12 @@ For the purposes of this project, we will distinguish the following types of *pi
 A TBP is a *pies* that is transmitted as a text. As text we will consider any
 sequence of characters that can be represented as a string in a programming language.
 
-This also includes any binary data that can be decoded as a string and more functional
-types of written language, such as functioning code that outputs its own data, which
-will be further classified as of *pies*-type.
+This also includes any binary data that can be decoded as a string.
 
 ### Image-based pies (IBP)
 
 An IBP is a *pies* that is transmitted as an image. This image may be of any format
 that can be decoded by a computer and displayed on a screen.
-
-In case of ASCII art, the input will be treated still as IBP,
-but will require a special conversion to TBP.
 
 Another special case of IBP is a TBP that is transmitted as an image. If such a situation occurs,
 an initial IBP to TBP conversion must be performed before further processing.
@@ -62,7 +57,9 @@ An SBP is a *pies* that is transmitted as a sound. This sound may be of any form
 may include both human and non-human sounds.
 
 In the case of a human sound, the input will be treated still as SBP, but converted to TBP
-for further processing i.e. if the topic of the spoken text is indeed a *pies*. For non-human sounds,
+for further processing i.e. if the topic of the spoken text is indeed a *pies*.
+
+For non-human sounds,
 an obvious check will be performed to determine if its source is a well-functioning *pies*.
 
 A special case of SBP is an IBP that is transmitted as a sound i.e. a spectrogram.
