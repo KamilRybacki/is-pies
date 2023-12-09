@@ -7,7 +7,7 @@
 ## Description
 
 This project aims to provide a multi-language set of useless tools to check if
-a thing passed to them are a *pies* (from the Polish word for "dog") or not.
+a thing passed to them is a *pies* (from the Polish word for "dog") or not.
 It is heavily inspired by a function in the [PKP Intercity ticketing system source code]
 named `czyWybranoPsa` that in in its original form returned a boolean value
 indicating if a passenger has selected a dog as their pet.
@@ -21,7 +21,7 @@ This boolean value was named
 A legendary variable name that has
 inspired many programmers to not be ashamed of including their mother tongue
 in the code they write. Since then, the code has been refactored and this
-milestone has been lost. But the legend lives on.
+milestone has been lost. [But the legend lives on].
 
 ## What constitutes a pies?
 
@@ -77,4 +77,5 @@ if the input is a *pies* or not.
 If you want to contribute to this project, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
 
 [PKP Intercity ticketing system source code]: https://bilet.intercity.pl/eic_js/zakup_biletu_plugin.js?ver=880871484
+[But the legend lives on]: https://wykop.pl/wpis/30442309/kod-pkp-jest-zlotem-function-czywybranopsa-var-isp
 [New Athens Polish encyclopedia]: https://en.wikipedia.org/wiki/Nowe_Ateny
