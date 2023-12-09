@@ -65,28 +65,12 @@ an obvious check will be performed to determine if its source is a well-function
 A special case of SBP is an IBP that is transmitted as a sound i.e. a spectrogram.
 If such a situation occurs, the conversion to IBP must be performed before further processing.
 
-## Project structure
-
-Code is grouped into modules that are responsible for a specific type of *pies*.
-Each module contains implementations of functions that are responsible for
-checking if a given input is a *pies* of a given type, in a plethora of programming languages.
-
-Each language will be linted and tested with a CI pipeline, to ensure that the
-code is of the highest quality.
-
 ## Project goal
 
 The goal is to create a Docker image that will contain all the code and will
 automatically identify if a given input is a *pies* or not. The user will be able
 to pass the input in any form and the image will return a boolean value indicating
 if the input is a *pies* or not.
-
-If a TBP is passed of code kind, the image will also return a boolean value
-after identifying the language of the code and running the appropriate interpreters / compilers.
-
-When it comes to the normal TBPs, IBPs and SBPs, the image will return a boolean value
-after identifying the type of input and running **the fastest** implementation of the
-identification function.
 
 ## Contributing
 
