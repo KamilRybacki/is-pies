@@ -7,7 +7,7 @@
 ## Description
 
 This project aims to provide a multi-language set of useless tools to check if
-a thing passed to them are a *pies* (from the Polish word for "dog") or not.
+a thing passed to them is a *pies* (from the Polish word for "dog") or not.
 It is heavily inspired by a function in the [PKP Intercity ticketing system source code]
 named `czyWybranoPsa` that in in its original form returned a boolean value
 indicating if a passenger has selected a dog as their pet.
@@ -21,7 +21,7 @@ This boolean value was named
 A legendary variable name that has
 inspired many programmers to not be ashamed of including their mother tongue
 in the code they write. Since then, the code has been refactored and this
-milestone has been lost. But the legend lives on.
+milestone has been lost. [But the legend lives on].
 
 ## What constitutes a pies?
 
@@ -65,15 +65,6 @@ an obvious check will be performed to determine if its source is a well-function
 A special case of SBP is an IBP that is transmitted as a sound i.e. a spectrogram.
 If such a situation occurs, the conversion to IBP must be performed before further processing.
 
-## Project structure
-
-Code is grouped into modules that are responsible for a specific type of *pies*.
-Each module contains implementations of functions that are responsible for
-checking if a given input is a *pies* of a given type, in a plethora of programming languages.
-
-Each language will be linted and tested with a CI pipeline, to ensure that the
-code is of the highest quality.
-
 ## Project goal
 
 The goal is to create a Docker image that will contain all the code and will
@@ -81,16 +72,10 @@ automatically identify if a given input is a *pies* or not. The user will be abl
 to pass the input in any form and the image will return a boolean value indicating
 if the input is a *pies* or not.
 
-If a TBP is passed of code kind, the image will also return a boolean value
-after identifying the language of the code and running the appropriate interpreters / compilers.
-
-When it comes to the normal TBPs, IBPs and SBPs, the image will return a boolean value
-after identifying the type of input and running **the fastest** implementation of the
-identification function.
-
 ## Contributing
 
 If you want to contribute to this project, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
 
 [PKP Intercity ticketing system source code]: https://bilet.intercity.pl/eic_js/zakup_biletu_plugin.js?ver=880871484
+[But the legend lives on]: https://wykop.pl/wpis/30442309/kod-pkp-jest-zlotem-function-czywybranopsa-var-isp
 [New Athens Polish encyclopedia]: https://en.wikipedia.org/wiki/Nowe_Ateny
